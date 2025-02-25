@@ -1,0 +1,36 @@
+:root {
+  ---font-style: "Plus Jakarta Sans", serif;
+  ---font-color: white;
+}
+
+.background-pic {
+  background-image: url(images/wallpaperbetter\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  opacity: 56%;
+}
+
+.text-container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 200px 0;
+}
+h1,
+h2,
+h3,
+button {
+  font-family: var(---font-style);
+  color: var(---font-color);
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 128px;
+}
