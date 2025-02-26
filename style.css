@@ -2,6 +2,11 @@
   ---font-style: "Plus Jakarta Sans", serif;
   ---font-color: white;
   ---main-color: #fb5c8d;
+  ---secondary-color: #272044;
+}
+
+.font-style-container {
+  font-family: var(---font-style);
 }
 
 .background-pic {
@@ -23,7 +28,6 @@ h1,
 h2,
 h3,
 button {
-  font-family: var(---font-style);
   color: var(---font-color);
 }
 
@@ -53,7 +57,7 @@ button {
   margin-top: 25px;
 }
 
-.box-container {
+.box-container-1 {
   margin: 80px auto;
   width: 1170px;
   display: grid;
@@ -69,10 +73,21 @@ button {
 
 .box-2 {
   margin: 100px auto;
-  font-family: var(---font-style);
 }
 
-div strong {
+.section-3-background {
+  background-color: #f9f4ff;
+  margin-top: 50px;
+}
+.box-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 1170px;
+  height: 748px;
+  margin: 40px auto;
+}
+.text-1 strong {
   font-size: 13px;
   color: var(---main-color);
   letter-spacing: 5px;
@@ -82,7 +97,7 @@ div strong {
 
 .text-2 {
   font-size: 48px;
-  color: #272044;
+  color: var(---secondary-color);
   font-weight: 700;
   line-height: 60px;
   margin-top: 10px;
@@ -90,8 +105,42 @@ div strong {
 }
 
 .text-3 {
-  color: #272044;
+  color: var(---secondary-color);
   font-size: 16px;
   line-height: 26px;
   opacity: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.text-wrap-1 {
+  width: 516px;
+  height: 147px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.box-3 {
+  width: 370px;
+  height: 748px;
+  border-radius: 10px;
+}
+
+.text-4 {
+  font-size: 24px;
+  color: var(---secondary-color);
+}
+
+.text-wrap-2 {
+  padding: 24px 32px;
+}
+
+.faded {
+  opacity: 1;
+}
+
+.expansion {
+  padding: 13px 70px;
 }
