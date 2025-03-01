@@ -5,8 +5,17 @@
   ---secondary-color: #272044;
 }
 
-.font-style-container {
+body {
+  max-width: 1512px;
+  height: 4356px;
+}
+main {
   font-family: var(---font-style);
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .background-pic {
@@ -76,10 +85,6 @@ button {
   margin: 100px auto;
 }
 
-.section-3-background {
-  background-color: #f9f4ff;
-  margin-top: 50px;
-}
 .box-container-2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -121,6 +126,10 @@ button {
   margin: 0 auto;
   text-align: center;
   padding-top: 90px;
+}
+.section-3-background {
+  background-color: #f9f4ff;
+  margin-top: 50px;
 }
 
 .box-3 {
@@ -207,4 +216,94 @@ section {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 50px;
+}
+
+@media (max-width: 920px) {
+  body {
+    width: 900px;
+  }
+
+  .background-pic {
+    background-size: contain;
+    height: 536px;
+  }
+
+  .text-container {
+    width: 900px;
+    padding: 95px 10px;
+  }
+
+  h1 {
+    font-size: 82px;
+    margin-top: 35px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+
+  .box-container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 900px;
+  }
+
+  .box-1 {
+    margin: auto;
+  }
+
+  .box-2 {
+    text-align: center;
+    width: 772px;
+    margin: 10px 10px 10px 30px;
+  }
+
+  .section-3-background {
+    height: 2550px;
+  }
+
+  .box-container-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 372px;
+    grid-gap: 35px;
+  }
+
+  .box-3 {
+    padding: 50px auto;
+  }
+
+  .embedd {
+    width: 900px;
+    margin-top: 44px;
+  }
+
+  .text-wrap-1 {
+    padding-top: 24px;
+  }
+
+  .box-container-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 470px;
+    margin-left: 74px;
+    height: 2400px;
+  }
+
+  .box-4 {
+    width: 700px;
+  }
+
+  .footer-background {
+    background: none;
+    background-color: var(---secondary-color);
+    height: 336px;
+  }
+  .box-container-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 900px;
+    margin: 20px 30px;
+    grid-gap: 10px;
+  }
 }
