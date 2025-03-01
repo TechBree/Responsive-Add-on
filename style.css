@@ -161,3 +161,50 @@ button {
   height: 770px;
   margin: 30px auto;
 }
+
+.footer-background {
+  background: url(images/wallpaperbetter\ 4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(---secondary-color);
+  background-blend-mode: multiply;
+  padding: 15px 0;
+}
+
+.footer-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Roboto Serif", serif;
+  font-size: 14px;
+}
+
+ul {
+  padding: 0;
+}
+
+section {
+  width: 1200px;
+  margin: 70px auto;
+}
+.box-container-4 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 50px;
+}
